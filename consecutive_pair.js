@@ -5,7 +5,9 @@ function consecutive_pair(){
 
     arr.sort(function(a,b){return a-b;})
 
-    for(let i=0;i<arr.length;i++){
+    let n = arr.length;
+
+    for(let i=0;i<n-1;i++){
         console.log(arr[i]+' : '+arr[i+1]);
     }
 }
